@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -18,6 +19,7 @@ public class LibroController {
     @Autowired
     private ILibroService libroService;
 
+    @PreAuthorize("hasAnyRole('ADMIN', 'USER')")
     @GetMapping
     public ResponseEntity<Page<LibroSalida>> mostrarTodosPaginados(Pageable pageable){
         Page<LibroSalida> libros = libroService.obtenerTodosPaginados(pageable);
@@ -28,6 +30,7 @@ public class LibroController {
         return ResponseEntity.noContent().build();
     }
 
+    @PreAuthorize("hasAnyRole('ADMIN', 'USER')")
     @GetMapping("/lista")
     public ResponseEntity<List<LibroSalida>> mostrarTodos(){
         List<LibroSalida> libros = libroService.obtenerTodos();
@@ -38,6 +41,7 @@ public class LibroController {
         return ResponseEntity.noContent().build();
     }
 
+    @PreAuthorize("hasAnyRole('ADMIN', 'USER')")
     @GetMapping("/{id}")
     public ResponseEntity<LibroSalida> mostrarPorId(@PathVariable Integer id){
         LibroSalida libro = libroService.obtenerPorId(id);
@@ -48,6 +52,7 @@ public class LibroController {
         return ResponseEntity.notFound().build();
     }
 
+  @PreAuthorize("hasRole('ADMIN')")
     @PostMapping
     public ResponseEntity<LibroSalida> crear(@RequestBody LibroGuardar libroGuardar){
         LibroSalida libro = libroService.crear(libroGuardar);
@@ -59,6 +64,7 @@ public class LibroController {
         return ResponseEntity.internalServerError().build();
     }
 
+    @PreAuthorize("hasRole('ADMIN')")
     @PutMapping("/{id}")
     public ResponseEntity<LibroSalida> editar(@PathVariable Integer id, @RequestBody LibroModificar libroModificar){
         LibroSalida libro = libroService.editar(libroModificar);
@@ -70,6 +76,7 @@ public class LibroController {
         return ResponseEntity.internalServerError().build();
     }
 
+    @PreAuthorize("hasRole('ADMIN')")
     @DeleteMapping("/{id}")
     public ResponseEntity eliminar(@PathVariable Integer id){
         libroService.eliminarPorId(id);

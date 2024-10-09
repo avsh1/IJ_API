@@ -3,6 +3,8 @@ package org.esfe.dtos.libro;
 import lombok.Getter;
 import lombok.Setter;
 import org.esfe.dtos.autor.AutorSalida;
+import org.esfe.dtos.categoria.CategoriaSalida;
+import org.esfe.dtos.editorial.EditorialSalida;
 
 import java.io.Serializable;
 import java.time.LocalDate;
@@ -14,13 +16,11 @@ public class LibroSalida implements Serializable {
 
     private String titulo;
 
-    private String nombreAutor;
-
     private LocalDate publicacion;
 
-    private String editorial;
-
-    private String categoria;
+    private EditorialSalida editorial;
 
     private AutorSalida autor;
+
+    private CategoriaSalida categoria;
 }

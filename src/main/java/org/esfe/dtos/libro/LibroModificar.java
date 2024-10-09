@@ -18,9 +18,11 @@ public class LibroModificar implements Serializable {
 
     private LocalDate publicacion;
 
-    private String editorial;
+    private Integer autor;
 
-    private String categoria;
+    private Integer editorial;
 
-    private Integer autorId;
+    private Integer categoria;
+
+
 }

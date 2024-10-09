@@ -57,8 +57,7 @@ public class LibroService implements ILibroService {
     @Override
     public LibroSalida crear(LibroGuardar libroGuardar) {
         Libro libro = modelMapper.map(libroGuardar, Libro.class);
-        libro.setId(null);
-
+       libro.setId(null);
         return modelMapper.map(libroRepository.save(libro), LibroSalida.class);
     }
 

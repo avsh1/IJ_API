@@ -18,17 +18,19 @@ public class Libro {
 
     private String titulo;
 
-    private String nombreAutor;
-
     private LocalDate publicacion;
-
-    private String editorial;
-
-    private String categoria;
 
     @ManyToOne
     @JoinColumn(name = "autor_id")
     private Autor autor;
+
+    @ManyToOne
+    @JoinColumn(name = "editorial_id")
+    private Editorial editorial;
+
+    @ManyToOne
+    @JoinColumn(name = "categoria_id")
+    private Categoria categoria;
 
     @OneToMany(mappedBy = "libro")
     private List<Prestamo> prestamos;

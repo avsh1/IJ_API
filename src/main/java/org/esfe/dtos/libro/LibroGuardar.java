@@ -12,13 +12,13 @@ import java.time.LocalDate;
 public class LibroGuardar implements Serializable  {
     private String titulo;
 
-    private String nombreAutor;
-
     private LocalDate publicacion;
 
-    private String editorial;
+    private Integer autor_Id;
 
-    private String categoria;
+    private Integer editorialId;
 
-    private Integer autorId;
+    private Integer categoria_Id;
+
+
 }
