@@ -17,13 +17,10 @@ public class Prestamo {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-    private String nombrelibro;
+    private String nombreCliente;
     private LocalDate fechaPrestamo;
-    private LocalDate fechaDevolucion;
+    private String encargado;
 
-
-    @Enumerated(EnumType.STRING)
-    private Status estado;
 
     @ManyToOne
     @JoinColumn(name = "libro_id")

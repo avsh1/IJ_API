@@ -1,6 +1,6 @@
 package org.esfe.servicios.interfaces;
 
-import org.esfe.dtos.PrestamoCambiarEstado;
+
 import org.esfe.dtos.prestamo.PrestamoGuardar;
 import org.esfe.dtos.prestamo.PrestamoModificar;
 import org.esfe.dtos.prestamo.PrestamoSalida;
@@ -16,6 +16,6 @@ public interface IPrestamoService {
 //    List<PrestamoSalida> obtenerPorPrestamoId(Integer id);
     PrestamoSalida crear(PrestamoGuardar prestamoGuardar);
     PrestamoSalida editar(PrestamoModificar prestamoModificar);
-    PrestamoSalida cambiarEstado(PrestamoCambiarEstado prestamoCambiarEstado);
+    //PrestamoSalida cambiarEstado(PrestamoCambiarEstado prestamoCambiarEstado);
     void eliminarPorId(Integer id);
 }

@@ -14,10 +14,7 @@ import java.time.LocalDate;
 @Setter
 public class PrestamoSalida implements Serializable {
     private Integer id;
-    private String nombrelibro;
+    private String nombreCliente;
     private LocalDate fechaPrestamo;
-    private LocalDate fechaDevolucion;
-    private String estado;
-    private LibroSalida libro;
-
+    private String encargado;
 }

@@ -1,6 +1,6 @@
 package org.esfe.controladores;
 
-import org.esfe.dtos.PrestamoCambiarEstado;
+
 import org.esfe.dtos.prestamo.PrestamoGuardar;
 import org.esfe.dtos.prestamo.PrestamoModificar;
 import org.esfe.dtos.prestamo.PrestamoSalida;
@@ -80,20 +80,20 @@ public class PrestamoController {
         return ResponseEntity.internalServerError().build();
     }
 
-    @PatchMapping
-    public ResponseEntity<PrestamoSalida> cambiarEstado(@RequestBody PrestamoCambiarEstado prestamoCambiarEstado){
-        PrestamoSalida pretamo = prestamoService.cambiarEstado(prestamoCambiarEstado);
+    //@PatchMapping
+    //  public ResponseEntity<PrestamoSalida> cambiarEstado(@RequestBody PrestamoCambiarEstado prestamoCambiarEstado){
+    //   PrestamoSalida pretamo = prestamoService.cambiarEstado(prestamoCambiarEstado);
 
-        if(pretamo != null){
-            return ResponseEntity.ok(pretamo);
-        }
-        return ResponseEntity.internalServerError().build();
-    }
+    //   if(pretamo != null){
+    //    return ResponseEntity.ok(pretamo);
+    //  }
+    //    return ResponseEntity.internalServerError().build();
+    // }
 
     @DeleteMapping("/{id}")
     public ResponseEntity eliminar(@PathVariable Integer id){
         prestamoService.eliminarPorId(id);
-        return ResponseEntity.ok(" prestamo eliminada correctamente");
+        return ResponseEntity.ok(" prestamo eliminado correctamente");
     }
 
 }

@@ -10,8 +10,7 @@ import java.time.LocalDate;
 @Getter
 @Setter
 public class PrestamoGuardar implements Serializable {
-    private String nombrelibro;
+    private String nombreCliente;
     private LocalDate fechaPrestamo;
-    private LocalDate fechaDevolucion;
-private Integer libroId;
+    private String encargado;
 }
