@@ -4,6 +4,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.io.Serializable;
+import java.time.LocalDate;
 
 @Getter
 @Setter
@@ -11,15 +12,11 @@ public class ClienteModificar implements Serializable {
 
 
     private Integer id;
+    private String direccion;
+    private String correo;
+    private String telefono;
+    private LocalDate fechaRegistro;
+    private Boolean estado;
 
-    private String nombre;
-
-    private String Apellido;
-
-    private String Edad;
-
-    private String Correo;
-
-    private String Genero;
 
 }

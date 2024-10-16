@@ -3,6 +3,7 @@ package org.esfe.dtos.prestamo;
 
 import lombok.Getter;
 import lombok.Setter;
+import org.esfe.dtos.cliente.ClienteSalida;
 import org.esfe.dtos.libro.LibroSalida;
 
 
@@ -14,7 +15,10 @@ import java.time.LocalDate;
 @Setter
 public class PrestamoSalida implements Serializable {
     private Integer id;
-    private String nombreCliente;
+    private ClienteSalida cliente;
+    private LibroSalida libro;
+    private String status;
     private LocalDate fechaPrestamo;
+    private LocalDate fechaDevolucion;
     private String encargado;
 }

@@ -1,7 +1,6 @@
 package org.esfe.modelos;
 
 import jakarta.persistence.*;
-
 import lombok.Getter;
 import lombok.Setter;
 
@@ -17,17 +16,32 @@ public class Prestamo {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-    private String nombreCliente;
+
+    // Relación con la entidad Cliente
+    @ManyToOne
+    @JoinColumn(name = "cliente_id", nullable = false)
+    private Cliente cliente;
+
     private LocalDate fechaPrestamo;
+    private LocalDate fechaDevolucion;
+
     private String encargado;
 
-
+    // Relación con la entidad Libro
     @ManyToOne
     @JoinColumn(name = "libro_id")
     private Libro libro;
 
-    public  static enum  Status{
+    // Enum para representar el estado del préstamo
+    @Enumerated(EnumType.STRING)
+    private Status status;
+
+    // Enumeración para los estados del préstamo
+    public static enum Status {
         ENTREGADO, RETRASADO, PRESTADO
     }
+
+    @OneToMany(mappedBy = "prestamo")
+    private List<DetallePrestamo> detalles;
 
 }

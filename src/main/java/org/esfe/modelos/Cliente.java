@@ -17,13 +17,11 @@ public class Cliente {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String nombre;
-    private String apellido;
-    private String edad;
+    private String direccion;
     private String correo;
-    private String genero;
-
-
-
+    private String telefono;
+    private LocalDate fechaRegistro;
+    private Boolean estado;
  }
 
 

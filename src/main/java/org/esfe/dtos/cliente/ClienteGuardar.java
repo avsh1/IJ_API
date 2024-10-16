@@ -9,17 +9,13 @@ import java.time.LocalDate;
 @Getter
 @Setter
 
-public class ClienteGuardar implements Serializable  {
-
-    private Integer id;
+public class ClienteGuardar implements Serializable {
 
     private String nombre;
+    private String direccion;
+    private String correo;
+    private String telefono;
+    private LocalDate fechaRegistro;
+    private Boolean estado;
 
-    private String Apellido;
-
-    private String Edad;
-
-    private String Correo;
-
-    private String Genero;
 }

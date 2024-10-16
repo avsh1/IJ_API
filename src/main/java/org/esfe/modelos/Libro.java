@@ -35,4 +35,7 @@ public class Libro {
     @OneToMany(mappedBy = "libro")
     private List<Prestamo> prestamos;
 
+    @OneToMany(mappedBy = "libro")
+    private List<DetallePrestamo> detalles;
+
 }
