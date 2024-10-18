@@ -21,7 +21,7 @@ public class Cliente {
     private String correo;
     private String telefono;
     private LocalDate fechaRegistro;
-    private Boolean estado;
+    private boolean estado;
  }
 
 
