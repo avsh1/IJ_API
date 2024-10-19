@@ -14,15 +14,13 @@ public class LibroModificar implements Serializable {
 
     private String titulo;
 
-    private String nombreAutor;
-
     private LocalDate publicacion;
 
-    private Integer autor;
+    private Integer autor_Id;
 
-    private Integer editorial;
+    private Integer editorialId;
 
-    private Integer categoria;
+    private Integer categoria_Id;
 
 
 }
