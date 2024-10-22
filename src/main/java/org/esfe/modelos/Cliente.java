@@ -22,6 +22,9 @@ public class Cliente {
     private String telefono;
     private LocalDate fechaRegistro;
     private boolean estado;
+
+    @OneToMany(mappedBy = "cliente")
+    private List<Prestamo> prestamos;
  }
 
 
