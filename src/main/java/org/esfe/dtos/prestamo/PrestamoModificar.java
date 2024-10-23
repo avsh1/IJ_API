@@ -11,8 +11,8 @@ import java.time.LocalDate;
 @Setter
 public class PrestamoModificar implements Serializable {
     private Integer id;
-    private Integer libro;
-    private Integer cliente;
+    private Integer clienteId;
+    private Integer libro_Id;
     private String status;
     private LocalDate fechaPrestamo;
     private LocalDate fechaDevolucion;

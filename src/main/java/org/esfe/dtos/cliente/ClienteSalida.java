@@ -12,6 +12,7 @@ import java.time.LocalDate;
 public class ClienteSalida implements Serializable {
 
     private Integer id;
+    private String nombre;
     private String direccion;
     private String correo;
     private String telefono;

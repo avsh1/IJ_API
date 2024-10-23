@@ -22,6 +22,7 @@ public class Prestamo {
     @JoinColumn(name = "cliente_id", nullable = false)
     private Cliente cliente;
 
+
     private LocalDate fechaPrestamo;
     private LocalDate fechaDevolucion;
 

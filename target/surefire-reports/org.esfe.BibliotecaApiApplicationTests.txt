@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.esfe.BibliotecaApiApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.77 s -- in org.esfe.BibliotecaApiApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 65.53 s -- in org.esfe.BibliotecaApiApplicationTests
