@@ -1,73 +1,73 @@
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\BibliotecaApiApplication.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\config\ModelMapperConfig.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\config\SecurityConfig.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\config\SwaggerConfig.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\controladores\AuthController.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\controladores\AutorController.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\controladores\CategoriaController.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\controladores\ClienteController.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\controladores\DetallePrestamoController.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\controladores\EditorialController.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\controladores\LibroController.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\controladores\PrestamoController.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\dtos\autor\AutorGuardar.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\dtos\autor\AutorModificar.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\dtos\autor\AutorSalida.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\dtos\categoria\CategoriaGuardar.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\dtos\categoria\CategoriaModificar.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\dtos\categoria\CategoriaSalida.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\dtos\cliente\ClienteGuardar.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\dtos\cliente\ClienteModificar.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\dtos\cliente\ClienteSalida.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\dtos\detalle\DetallePrestamoGuardar.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\dtos\detalle\DetallePrestamoModificar.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\dtos\detalle\DetallePrestamoSalida.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\dtos\editorial\EditorialGuardar.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\dtos\editorial\EditorialModificar.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\dtos\editorial\EditorialSalida.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\dtos\libro\LibroGuardar.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\dtos\libro\LibroModificar.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\dtos\libro\LibroSalida.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\dtos\prestamo\PrestamoGuardar.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\dtos\prestamo\PrestamoModificar.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\dtos\prestamo\PrestamoSalida.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\modelos\Autor.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\modelos\Categoria.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\modelos\Cliente.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\modelos\DetallePrestamo.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\modelos\Editorial.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\modelos\Libro.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\modelos\Prestamo.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\repositorios\IAutorRepository.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\repositorios\ICategoriaRepository.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\repositorios\IClienteRepository.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\repositorios\IDetallePrestamoRepository.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\repositorios\IEditorialRepository.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\repositorios\ILibroRepository.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\repositorios\IPrestamoRepository.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\seguridad\configuracion\ApplicationConfig.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\seguridad\configuracion\JwtAuthenticationFilter.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\seguridad\dtos\UsuarioLogin.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\seguridad\dtos\UsuarioRegistrar.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\seguridad\dtos\UsuarioToken.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\seguridad\modelos\Rol.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\seguridad\modelos\Usuario.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\seguridad\repositorios\RolRepository.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\seguridad\repositorios\UsuarioRepository.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\seguridad\servicios\JwtService.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\seguridad\servicios\RolService.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\seguridad\servicios\UsuarioService.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\servicios\inplementaciones\AutorService.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\servicios\inplementaciones\CaregoriaService.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\servicios\inplementaciones\ClienteService.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\servicios\inplementaciones\DetallePrestamoService.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\servicios\inplementaciones\EditorialService.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\servicios\inplementaciones\LibroService.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\servicios\inplementaciones\PrestamoService.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\servicios\interfaces\IAutorService.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\servicios\interfaces\ICategoriaService.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\servicios\interfaces\IClienteService.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\servicios\interfaces\IDetallePrestamoService.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\servicios\interfaces\IEditorialService.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\servicios\interfaces\ILibroService.java
-C:\Users\Selena Raquel\Desktop\tarea\Apis\IJ_API\src\main\java\org\esfe\servicios\interfaces\IPrestamoService.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\BibliotecaApiApplication.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\config\ModelMapperConfig.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\config\SecurityConfig.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\config\SwaggerConfig.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\controladores\AuthController.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\controladores\AutorController.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\controladores\CategoriaController.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\controladores\ClienteController.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\controladores\DetallePrestamoController.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\controladores\EditorialController.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\controladores\LibroController.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\controladores\PrestamoController.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\dtos\autor\AutorGuardar.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\dtos\autor\AutorModificar.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\dtos\autor\AutorSalida.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\dtos\categoria\CategoriaGuardar.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\dtos\categoria\CategoriaModificar.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\dtos\categoria\CategoriaSalida.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\dtos\cliente\ClienteGuardar.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\dtos\cliente\ClienteModificar.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\dtos\cliente\ClienteSalida.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\dtos\detalle\DetallePrestamoGuardar.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\dtos\detalle\DetallePrestamoModificar.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\dtos\detalle\DetallePrestamoSalida.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\dtos\editorial\EditorialGuardar.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\dtos\editorial\EditorialModificar.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\dtos\editorial\EditorialSalida.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\dtos\libro\LibroGuardar.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\dtos\libro\LibroModificar.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\dtos\libro\LibroSalida.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\dtos\prestamo\PrestamoGuardar.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\dtos\prestamo\PrestamoModificar.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\dtos\prestamo\PrestamoSalida.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\modelos\Autor.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\modelos\Categoria.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\modelos\Cliente.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\modelos\DetallePrestamo.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\modelos\Editorial.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\modelos\Libro.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\modelos\Prestamo.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\repositorios\IAutorRepository.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\repositorios\ICategoriaRepository.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\repositorios\IClienteRepository.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\repositorios\IDetallePrestamoRepository.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\repositorios\IEditorialRepository.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\repositorios\ILibroRepository.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\repositorios\IPrestamoRepository.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\seguridad\configuracion\ApplicationConfig.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\seguridad\configuracion\JwtAuthenticationFilter.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\seguridad\dtos\UsuarioLogin.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\seguridad\dtos\UsuarioRegistrar.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\seguridad\dtos\UsuarioToken.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\seguridad\modelos\Rol.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\seguridad\modelos\Usuario.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\seguridad\repositorios\RolRepository.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\seguridad\repositorios\UsuarioRepository.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\seguridad\servicios\JwtService.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\seguridad\servicios\RolService.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\seguridad\servicios\UsuarioService.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\servicios\inplementaciones\AutorService.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\servicios\inplementaciones\CaregoriaService.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\servicios\inplementaciones\ClienteService.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\servicios\inplementaciones\DetallePrestamoService.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\servicios\inplementaciones\EditorialService.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\servicios\inplementaciones\LibroService.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\servicios\inplementaciones\PrestamoService.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\servicios\interfaces\IAutorService.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\servicios\interfaces\ICategoriaService.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\servicios\interfaces\IClienteService.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\servicios\interfaces\IDetallePrestamoService.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\servicios\interfaces\IEditorialService.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\servicios\interfaces\ILibroService.java
+C:\Users\alvar\OneDrive\Escritorio\IJ_API\src\main\java\org\esfe\servicios\interfaces\IPrestamoService.java
